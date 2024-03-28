@@ -10,7 +10,7 @@ app.use(
     optionsSuccessStatus: 204,
   })
 );
-const port = process.env.DB_PORT;
+const port = process.env.DB_PORT || 8080;
 app.listen(port, (error) => {
   if (!error) {
     console.log("http://localhost:" + port);
