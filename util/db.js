@@ -8,11 +8,11 @@ const util = require("util");
 //   port: "3306",
 // });
 const db = mysql.createConnection({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME,
-  port: process.env.DB_PORT,
+  host: "bjed1kqbocbzt3ngllsp-mysql.services.clever-cloud.com",
+  user: "ui4a0im1iegnevr7",
+  password: "4OqZfRzgCM2DSI1FGUhv",
+  database: "bjed1kqbocbzt3ngllsp",
+  port: "3306",
 });
 
 db.query = util.promisify(db.query).bind(db);
