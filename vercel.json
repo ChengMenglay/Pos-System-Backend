@@ -6,8 +6,7 @@
     {
       "src": "/(.*)",
       "dest": "/",
-      "methods": ["GET, HEAD, PUT, PATCH, POST, DELETE"],
-      "headers": { "Access-Control-Allow-Origin": "*" }
+      "methods": ["GET, HEAD, PUT, PATCH, POST, DELETE"]
     }
   ]
 }
